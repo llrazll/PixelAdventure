@@ -1,0 +1,357 @@
+.bg
+{
+    background-image: url(../PixelAdventure/images/666.jpg);
+    color:beige;
+}
+/*  name_Game */
+.name
+{
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    margin-top: 0px;
+    margin-bottom: 0%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.pp{
+    margin-top:0px;
+}
+
+/* Text about creater */
+.Creater
+{
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    margin-top: 10%;
+    margin-left: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/* Hero */
+.size_h
+{
+    position: relative;
+    margin-left: 350px;
+    width: 300px;
+    height: 100px;
+    margin-top: 10%;
+}
+    
+    /* PineApple*/
+    .size_p
+    {
+        position: relative;
+        margin-left: 10%;
+        margin-right: 1%;
+        width: 250px;
+        height: 150px;
+    }
+
+
+    /* GROUND */
+.Ground
+{
+    display: flex;
+
+}
+
+    /* block_Ground Left */
+
+.size_b_L
+{
+    position: relative;
+
+    margin-top: 60px;
+    
+    width: 100%;   
+    height: 50%;
+}
+
+/* block_Ground Right */
+.size_b_R
+{
+    position: relative;
+
+    margin-top: 60px;
+
+    width: 100%;   
+    height: 50%;
+}
+
+.text
+{
+    font-family: Arial, 'Helvetica', sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* 1_Pict */
+
+.T_L
+{
+    font-size: 22px;
+    font-weight: bold;
+    
+    text-align: left;
+
+    position: relative;
+
+    margin-top: 10%;
+    margin-right: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Right_bloc_in_1_Pict */
+.size_b_R_D
+{
+    position: relative;
+    margin-top: 5%;
+    width: 100%;   
+    height: 30%;
+}
+.size_b_R_A
+{
+    position: relative;
+    margin-top: 5%;
+    width: 100%;   
+    height: 30%;
+    margin-bottom: -10%;
+}
+
+/* 2 - Pict */
+.T_R
+{
+    font-size: 30px;
+    font-weight: bold;
+    
+    text-align: left;
+
+    position: relative;
+
+    margin-top: 30%;
+    margin-left: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.size_b_L_D
+{
+    position: relative;
+
+    margin-top: 20%;
+
+    width: 100%;   
+    height: 50%;
+}
+
+.Button
+{
+    display: block;
+    align-items:center;
+    padding: 20px 35px;
+    text-align:center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 25%;
+    background: rgb(0, 0, 0);
+    color :#ffffff;
+    box-shadow: 0px 65px 18px rgb(0, 0, 0,0.01), 0px 41px 17px rgb(0, 0, 0,0.04), 0px 23px 14px rgb(0, 0, 0,0.24), 0px 3px 6px rgb(0, 0, 0,0.28), 0px 0px 0px rgb(0, 0, 0,0.29);
+    border-radius: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    transition: 1s; /* Время эффекта */
+    text-decoration:none;
+}
+.Button:hover{
+    display: block;
+    align-items:center;
+    padding: 20px 35px;
+    text-decoration:none;
+    text-align:center;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 25%;
+    background: rgb(255, 255, 255);
+    color :#000000;
+    box-shadow: 0px 65px 18px rgb(255, 255, 255,0.01), 0px 41px 17px rgb(255, 255, 255,0.04), 0px 23px 14px rgb(255, 255, 255,0.24), 0px 3px 6px rgb(255, 255, 255,0.28), 0px 0px 0px rgb(255, 255, 255,0.29);
+    border-radius: 30px;
+    transform: scale(1.15); /* Увеличиваем масштаб */
+}
+
+/* Cоц сети */
+
+.social
+{
+    margin-top: 5%;
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: auto;
+}
+
+.paddingtop
+{
+    padding-top: 0%;
+}
+.navigbar
+{
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+    position: fixed;
+    padding-top: -5px;
+    margin-top: 0px;
+    z-index: 999999;
+}
+.video
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 12%;
+}
+#scale{
+        transition: 1s; /* Время эффекта */
+       }
+#scale:hover {
+        transform: scale(1.15); /* Увеличиваем масштаб */
+       }
+       @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.container{
+  max-width: 1170px;
+  margin:auto;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer{
+  background-color: #24262b;
+    padding: 50px 0;
+    opacity: 0.87;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+  font-size: 20px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  left:30px;
+  font-weight: 600;
+  position: relative;
+}
+.footer-col h4::before{
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  right:70px;
+  background-color: #ffffff;
+  height: 2px;
+  box-sizing: border-box;
+  width: 220px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+  color: #ffffff;
+  padding-left: 15px;
+}
+.footer-col .social-links a{
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  margin:0 20px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.5s ease;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.menu-bar {
+  border-radius: 35px;
+  display: inline-flex;
+  background-color: rgba(0, 0, 0, 0.4);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
+  align-items: center;
+  padding: 0 475px;
+  margin: 0px 0 0 0;
+  position: fixed;
+  z-index: 99999;
+}
+.menu-bar li {
+  list-style: none;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding: 12px 16px;
+  margin: 0 8px;
+  position: relative;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.menu-bar li::before {
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  transition: 0.2s;
+  border-radius: 50px;
+}
+.menu-bar li:hover {
+  color: black;
+}
+.menu-bar li:hover::before {
+  background: linear-gradient(to bottom, #e8edec, #d2d1d3);
+  box-shadow: 0px 3px 20px 0px black;
+  transform: scale(1.2);
+}

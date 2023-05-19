@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>
+            DCS World Steam Edition
+        </title>
+        <title>Панель навигации в HTML5</title>
+        <style>
+            ul.nav{
+                margin-left: 0px;
+                padding-left: 0px;
+                list-style: none;
+                transition: 1s; /* Время эффекта */
+            }
+            .nav li { 
+                float: left;
+                margin:0px;
+                font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            }
+            ul.nav a {
+                display:flexbox;
+                width: 23em;
+                padding:10px;
+                margin: 0 5px;
+                background-color: #00000000;
+                text-decoration: none;
+                color: #ffffff;
+                text-align: center;
+                transition: 1s; /* Время эффекта */
+            }
+            ul.nav a:hover{
+                background-color: #ffffff00;
+                color: #000000;
+                transform: scale(1.15); /* Увеличиваем масштаб */
+            }
+        </style>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body class="bg">
+        <div class ="menu-bar" id="navigbar">
+            <ul class="nav">
+                <li><a href="#Pixel">Главная</a></li>
+                <li><a href="#text">О Игре</a></li>
+                <li><a href="#text2">Скачать</a></li>
+                <li><a href="#social">Соц Сети</a></li>
+            </ul>
+        </div>
+        <div class="name" id="Pixel"><p class="pp">DCS World Steam Edition</p></div>
+        <div class="container">     <!-- Plane  -->
+            <div class="row">
+                <div class="hero col"><img src="images/333.png" alt=""  class="size_p" id="scale"></div>
+                <div class="pineapple col"><img src="images/6.png" alt="" class="size_h" id="scale"></div>
+            </div>
+        </div>
+        <div class="container">     <!-- Plane + text -->
+            <div class="row">
+                <div class="col"id="creator">
+                     <div class="Ground" id="jf"> <img src="images/123.jpg" title="JF-17 THUNDER" alt="JF-17 THUNDER" class="size_b_L" id="scale"></div>   </div>
+                <div class="col Creater"> 
+                    Разработчик игры учащийся группы Г-31 Васюченко Никита</div>
+                <div class="col">  
+                    <div class="Ground" id="mig"> <img src="images/234.jpg" title="MIG-29 FULCRUM" alt="MIG-29 FULCRUM" class="size_b_R" id="scale"></div></div>
+            </div>
+        </div>
+        <div class="text" id="text">Отправляйтесь в увлекательное путешествие на своём новейшем F16 и рассекайте своими крыльями ветер</div> 
+        <!-- 1 Picture -->  
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="T_L">Почувствуйте всю мощь современной боевой авиации! Займите место в российском штурмовике Су-25Т и сбросьте на головы противника несколько тонн бомб! Утомляет гул реактивных двигателей, хочется прикоснуться к чему-то раритетному? Тогда ваш выбор учебно-тренировочный самолет TF-51D, модификация легендарного истребителя P-51D “Mustang”!</div>
+                </div>
+
+                <div class="col">
+                    <div class="Ground" id="f14"> <img src="images/345.jpg" title="F-14 TOMCAT" alt="F-14 TOMCAT" class="size_b_R_D" id="scale"></div>
+                </div>
+            </div>
+        </div>
+        <!-- 2 Picture  -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="Ground" id="f18"> <img src="images/231.jpg" title="F/A-18C HORNET" alt="F/A-18C HORNET" class="size_b_L_D" id="scale"></div>
+                </div>
+                <div class="col">
+                    <div class="T_R">Отрабатывайте фигуры высшего пилотажа и полеты на предельно малой высоте, практикуйтесь в выполнении посадки в ветреную погоду и темное время суток. Добро пожаловать в DCS World!</div>
+                </div>
+            </div>
+        </div>
+        <!-- Button -->
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <div>
+                            <div class="text" id="text1">Видео о нашей игре вы можете увидеть ниже</div> 
+                        <video class="video" loop autoplay controls src="https://cdn.cloudflare.steamstatic.com/steam/apps/256745473/movie480.webm" type="video/webm" title="DCS WORLD STEAM EDITION">
+                        </div>
+                        <div class="text" id="text2">Игра уже находиться в STEAM где вы можете опробовать её по виджету ниже либо скачать игру по ссылке</div> 
+                        <iframe target="_blank" src="https://store.steampowered.com/widget/223750/" frameborder="0" width="654" height="0" alt="" class="size_b_R_A"></iframe>
+                        <a target="_blank" style="text-decoration-line: none;" href="https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/"><button class="Button" id="button">Скачать игру</button></a>
+                    </div>
+                </div>
+            </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container">
+             <div class="row">
+               <div class="footer-col">
+                 <h4>О сайте</h4>
+                 <ul>
+                   <li><a href="#Pixel">Главная</a></li>
+                   <li><a href="#text1">О Игре</a></li>
+                   <li><a href="#creator">Создатель</a></li>
+                   <li><a href="#text2">Скачать</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>Стим продукты</h4>
+                 <ul>
+                   <li><a target="_blank" href="https://store.steampowered.com/app/223750/DCS_World_Steam_Edition/">DCS WORLD STEAM EDITION</a></li>
+                   <li><a target="_blank" href="https://store.steampowered.com/app/2214600/DCS_Black_Shark_3/">DCS: BLACK SHARK 3</a></li>
+                   <li><a target="_blank" href="https://store.steampowered.com/app/1770580/DCS_AH64D/">DCS: AH-64D</a></li>
+                   <li><a target="_blank" href="https://store.steampowered.com/app/411950/DCS_FA18C_Hornet/">DCS: F/A-18C HORNET</a></li>
+                   <li><a target="_blank" href="https://store.steampowered.com/app/411893/DCS_F14AB_Tomcat/">DCS: F-14A/B TOMCAT</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>Самолёты</h4>
+                 <ul>
+                   <li><a href="#jf">JF-17 THUNDER</a></li>
+                   <li><a href="#mig">MIG-29 FULCRUM</a></li>
+                   <li><a href="#f14">F-14 TOMCAT</a></li>
+                   <li><a href="#f18">F/A-18C HORNET</a></li>
+                 </ul>
+               </div>
+               <div class="footer-col">
+                 <h4>Подпишись на нас</h4>
+                 <div class="social-links" id="social">
+                   <a target="_blank" href="https://vk.com/raz_edits"><img src="images/vk.png" alt="Twitter" class="social" id="scale" title="TG">
+                   <a target="_blank" href="https://www.youtube.com/channel/UCukKKmprX7VMd4TCga7GdRg"><img src="images/youtube.png" alt="youtube" class="social" id="scale" title="YT"></a>
+                   <a target="_blank" href="https://www.tiktok.com/@llllrazllll"><img src="images/tik-tok.png" alt="tik-tok" class="social" id="scale" title="TT"></a>
+                   <a target="_blank" href="https://www.t.me/llrazll"><img src="images/telegram.png" alt="VK" class="social" id="scale" title="VK"></a>
+                 </div>
+               </div>
+             </div>
+            </div>
+         </footer>
+    </body>
+</html>
